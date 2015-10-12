@@ -1,0 +1,18 @@
+The person called 17539998500 on Wednesday, May 22, 2013 at 22:48:16.
+The person downloads https://openintents.googlecode.com/files/FileManager-2.0.2.apk
+The person visited:
+_id|title|url|created|date|visits|user_entered
+1|Google|https://www.google.com/webhp?source=android-home|0|1369290390155|1|0
+2|oklahoma gay rights - Google Search|https://www.google.com/search?source=android-home&site=webhp&source=hp&ei=lbadUYPdJqOtigLT2ICIDw&q=oklahoma+gay+rights&oq=oklahoma+gay+rights&gs_l=mobile-gws-hp.3..0j0i22i30l2.8669.13983.0.15910.20.18.0.1.1.0.369.2951.0j11j2j2.15.0...0.0...1c.1.14.mobile-gws-hp.4S8q0tdYeGU|0|1369290413968|1|0
+3|LGBT rights in Oklahoma - Wikipedia, the free encyclopedia|http://en.m.wikipedia.org/wiki/LGBT_rights_in_Oklahoma|0|1369290438783|2|0
+4|Supreme Court rulings could affect Oklahoma ban on gay marriage | NewsOK.com|http://m.newsok.com/supreme-court-rulings-could-affect-oklahoma-ban-on-gay-marriage/article/3771596|0|1369290501187|2|0
+5|Electronic Frontier Foundation | Defending your rights in the digital world|https://www.eff.org/|0|1369290526772|3|0
+6|http://riseup.net/|http://riseup.net/|0|1369290549363|1|0
+7|home - help.riseup.net|https://help.riseup.net/en|0|1369290556455|3|0
+8|lists.riseup.net|https://lists.riseup.net/www/|0|1369290562087|2|0
+9|lists.riseup.net|https://lists.riseup.net/directory/tech/|0|1369290574342|1|0
+10|criticalinternet - 비판적 인터넷 연구와 정보자본주의 문화 비판|https://lists.riseup.net/www/info/criticalinternet|0|1369290586757|1|0
+11|seattleprivacy - Seattle Privacy Coalition|https://lists.riseup.net/www/info/seattleprivacy|0|1369290629016|1|0
+12|lists.riseup.net|https://lists.riseup.net/directory/student/|0|1369290670423|1|0
+13|bayareacodepinkaction - san francisco bay area code pink action list|https://lists.riseup.net/www/info/bayareacodepinkaction|0|1369290687364|1|0
+14|Daily Kos :: News Community Action|http://www.dailykos.com/|0|1369290764050|1|0

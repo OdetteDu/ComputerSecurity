@@ -1,0 +1,16 @@
+<% @title = "Login" %>
+
+<h3>Login</h3>
+
+<%= form_tag("post_login", method: :post, id: "login_form", class:  "pure-form-stacked") do %>
+
+	<%= display_error(@error) %>
+	
+	<%= label_tag(:username, "Username") %>
+    <%= text_field_tag(:username) %>
+    
+    <%= label_tag(:password, "Password") %>
+    <%= password_field_tag(:password) %>
+    
+    <p><%= submit_tag("Login", id: "login", class: "pure-button") %></p>
+<% end %>

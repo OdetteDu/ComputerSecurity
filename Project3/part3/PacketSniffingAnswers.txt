@@ -1,0 +1,23 @@
+1. I used a script to find the ips that the phone send a packet to its port 80
+'74.125.239.110.80', 
+'54.160.80.253.80', 
+'74.125.239.102.80', 
+'171.67.215.200.80', 
+'94.31.29.154.80'
+
+2. I counted the number of distinct ports that 1 ip scans another ip. Note 10.30.5.234 also scanned 10.30.1.65's ports but the packets are reset packets which do not require
+answer so it's not port scanning.
+a) 10.30.1.65
+b) 10.30.5.234
+c) 999 ports in the range [1,65389] inclusive
+
+3. I counted the most number of SYN packets from 1 ip to another ip
+a) 10.30.12.152
+b) 10.30.17.255
+c) 26076
+
+4. The injected packet is (as it is a resent packet after the seqno has been acknowledged, even with same TS value, but with different cksum)
+IP (tos 0x0, ttl 64, id 44874, offset 0, flags [DF], proto TCP (6), length 451)
+    10.30.22.101.64154 > 171.67.215.200.80: Flags [P.], cksum 0xe1c2 (correct), seq 1663:2062, ack 186953, win 65535, options [nop,nop,TS val 408566938 ecr 1998633308], length 399
+	
+and its cksum is 0xe1c2

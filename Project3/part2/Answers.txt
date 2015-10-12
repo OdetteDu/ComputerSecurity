@@ -1,0 +1,9 @@
+(a)  What  should  the  developers  of  TrustedApp  have  done  to  make  their  app  secure  against  the  attack performed by EvilApp?
+
+The developers should use the Android security defense. For example, the MAC Policy Enforcement in Android, which determines how applications access components of other applications via the reference monitor. A can access X that something B writes which need to get permission from the user, only if A have the same permission from the user.
+
+(b)  What are the real-world defenses against reverse-engineering an Android app?
+
+People should do something which makes the code hard to read and understand so that the attacker can’t do anything with it. For example, use obfuscation, which is deliberate act of creating obfuscated code, for example, source or machine code that is difficult for human to understand.People can also use compression, encryption, anti-debugging, garbage code and code permutation, anti-assembly, and hypervisor/emulator detection to fight against reverse-engineering.
+
+Referenced: http://www.slideshare.net/PrakashSuthar1/reverse-code-engineering

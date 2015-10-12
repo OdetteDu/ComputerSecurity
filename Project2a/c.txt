@@ -1,0 +1,1 @@
+try to avoid delete other attacker my id is yd322' or username = 'user3' or username like '%try to avoid delete other attacker my id is yd322%or username like%
